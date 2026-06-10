@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>プライバシーポリシー — TaleBox</title>
+  <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+
+<nav>
+  <a class="nav-logo gradient-text" href="index.html" style="text-decoration:none;">TaleBox</a>
+  <div style="display:flex;align-items:center;gap:20px;">
+    <div class="nav-links">
+      <a href="index.html">ホーム</a>
+    </div>
+    <div class="lang-switcher">
+      <a href="../zh-Hans/privacy.html">简体</a>
+      <a href="../zh-Hant/privacy.html">繁體</a>
+      <a href="../en/privacy.html">EN</a>
+      <a href="../ja/privacy.html" class="active">日本語</a>
+    </div>
+  </div>
+</nav>
+
+<article class="prose">
+  <h1>プライバシーポリシー</h1>
+  <p class="meta">最終更新：2025年6月 · TaleBox iOS アプリに適用</p>
+
+  <div class="highlight">
+    <strong>要約：</strong>TaleBox は個人を特定できる情報（氏名・メールアドレス・電話番号等）を一切収集しません。あなたの物語データはご自身のデバイスと iCloud アカウントに保存され、完全にあなた自身が管理します。
+  </div>
+
+  <h2>1. 収集する情報</h2>
+  <p>TaleBox 自体は個人を特定できる情報を収集・保存・送信しません。アプリがデータを処理する方法は以下の通りです：</p>
+  <ul>
+    <li><strong>物語コンテンツ：</strong>入力したキーワード、AIが生成した物語テキスト、読書進捗、お気に入りの状態は、ローカルデバイス（CoreData）および iCloud アカウント（同期が有効な場合）に保存されます。</li>
+    <li><strong>キャラクター情報：</strong>キャラクター名・アバター絵文字・性格タグ等は、ローカルと iCloud にのみ保存されます。</li>
+    <li><strong>設定情報：</strong>言語設定・テーマ・通知時間等は、デバイスのローカルに保存されます。</li>
+  </ul>
+
+  <h2>2. サードパーティサービス</h2>
+  <p>TaleBox は物語コンテンツの生成に <strong>Google Gemini API</strong> を使用しています。物語生成を開始する際、以下の情報が Google のサーバーに送信されます：</p>
+  <ul>
+    <li>入力した物語のキーワード（1〜3語）</li>
+    <li>作成したキャラクターの名前</li>
+    <li>今週の物語の簡単な概要（7日間アークの一貫性のため）</li>
+  </ul>
+  <p>Google は上記データを独自のプライバシーポリシーに基づいて処理します。<a href="https://policies.google.com/privacy" target="_blank">Google プライバシーポリシー</a>をご確認ください。</p>
+  <p><strong>上記情報を当社サーバーに保存することはありません。</strong>TaleBox は独自バックエンドを持たず、すべての API 呼び出しはお客様のデバイスから直接行われます。</p>
+
+  <h2>3. iCloud 同期</h2>
+  <p>iCloud 同期を有効にした場合、物語・キャラクター・設定データが Apple の CloudKit サービスを通じて iCloud アカウントに同期されます。このデータは <a href="https://www.apple.com/legal/privacy/" target="_blank">Apple プライバシーポリシー</a>に準拠します。アプリ設定、または「iOS 設定 → iCloud → TaleBox」でいつでも同期を無効にし、データを管理できます。</p>
+
+  <h2>4. プッシュ通知</h2>
+  <p>通知を許可した場合、TaleBox は設定した時間に毎日の物語リマインダーを送信します。通知内容はローカルで生成され、サーバーは関与しません。アプリ設定または iOS システム設定でいつでも通知をオフにできます。</p>
+
+  <h2>5. データセキュリティ</h2>
+  <p>データはデバイスローカルと iCloud に保存され、iOS サンドボックスと Apple の暗号化によって保護されています。当社はお客様の iCloud データにアクセスできません。</p>
+
+  <h2>6. 未成年者</h2>
+  <p>TaleBox は13歳未満の子供を対象としていません。未成年者から意図的に情報を収集することはありません。</p>
+
+  <h2>7. ポリシーの変更</h2>
+  <p>本ポリシーに重大な変更がある場合は、アプリのアップデートリリースノートに記載します。引き続きアプリをご使用いただくことで、更新されたポリシーに同意したものとみなします。</p>
+
+  <h2>8. お問い合わせ</h2>
+  <p>プライバシーに関するご質問やデータ削除リクエストは、以下にご連絡ください：</p>
+  <p><a href="mailto:natsukawa.tn@gmail.com">natsukawa.tn@gmail.com</a></p>
+</article>
+
+<footer>
+  <div class="footer-links">
+    <a href="index.html">ホーム</a>
+    <a href="mailto:natsukawa.tn@gmail.com">サポート</a>
+  </div>
+  <p>©<script>document.write(new Date().getFullYear())</script>NATSUKAWA.TN · TaleBox</p>
+</footer>
+
+</body>
+</html>

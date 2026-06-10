@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TaleBox — 每天一个专属故事</title>
+  <link rel="stylesheet" href="styles.css">
+  <script>
+    // Auto-redirect based on browser language
+    (function() {
+      const lang = (navigator.language || navigator.userLanguage || 'zh-Hans').toLowerCase();
+      const base = window.location.pathname.replace(/\/index\.html$/, '').replace(/\/$/, '');
+      if (lang.startsWith('ja')) location.href = base + '/ja/';
+      else if (lang.startsWith('zh-tw') || lang.startsWith('zh-hk') || lang.startsWith('zh-hant')) location.href = base + '/zh-Hant/';
+      else if (lang.startsWith('zh')) location.href = base + '/zh-Hans/';
+      else if (lang.startsWith('en')) location.href = base + '/en/';
+      else location.href = base + '/zh-Hans/';
+    })();
+  </script>
+</head>
+<body>
+  <p style="text-align:center;padding:40px;">正在跳转... / Redirecting...</p>
+</body>
+</html>

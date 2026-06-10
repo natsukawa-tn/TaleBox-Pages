@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>隱私政策 — TaleBox</title>
+  <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+
+<nav>
+  <a class="nav-logo gradient-text" href="index.html" style="text-decoration:none;">TaleBox</a>
+  <div style="display:flex;align-items:center;gap:20px;">
+    <div class="nav-links">
+      <a href="index.html">首頁</a>
+    </div>
+    <div class="lang-switcher">
+      <a href="../zh-Hans/privacy.html">简体</a>
+      <a href="../zh-Hant/privacy.html" class="active">繁體</a>
+      <a href="../en/privacy.html">EN</a>
+      <a href="../ja/privacy.html">日本語</a>
+    </div>
+  </div>
+</nav>
+
+<article class="prose">
+  <h1>隱私政策</h1>
+  <p class="meta">最後更新：2025 年 6 月 · 適用於 TaleBox iOS App</p>
+
+  <div class="highlight">
+    <strong>簡要說明：</strong>TaleBox 不收集任何個人身份資訊（姓名、電子郵件、電話等）。你的故事資料存儲在你自己的裝置和 iCloud 帳戶中，由你完全掌控。
+  </div>
+
+  <h2>1. 我們收集哪些資訊</h2>
+  <p>TaleBox 本身不收集、存儲或傳輸任何個人身份資訊。以下是 App 處理資料的說明：</p>
+  <ul>
+    <li><strong>故事內容：</strong>你輸入的關鍵詞、AI 生成的故事文字、閱讀進度和收藏狀態，存儲在你的本地裝置（CoreData）以及你自己的 iCloud 帳戶（如已開啟同步）。</li>
+    <li><strong>角色資訊：</strong>角色名字、頭像 emoji、性格標籤等，同樣僅存儲在本地和 iCloud。</li>
+    <li><strong>偏好設定：</strong>語言偏好、主題設定、通知時間等，存儲在裝置本地。</li>
+  </ul>
+
+  <h2>2. 第三方服務</h2>
+  <p>TaleBox 使用 <strong>Google Gemini API</strong> 生成故事內容。當你發起故事生成時，以下資訊會被發送至 Google 的伺服器：</p>
+  <ul>
+    <li>你輸入的故事關鍵詞（1–3 個詞）</li>
+    <li>你建立的角色名字</li>
+    <li>本週已發生故事的簡要摘要（用於七日故事線連貫性）</li>
+  </ul>
+  <p>Google 處理上述資料須遵守其自身的隱私政策。我們建議你查閱 <a href="https://policies.google.com/privacy" target="_blank">Google 隱私政策</a>。</p>
+  <p><strong>我們不會將任何上述資訊存儲在我們的伺服器上</strong>——TaleBox 沒有自建後端，所有 API 呼叫直接從你的裝置發出。</p>
+
+  <h2>3. iCloud 同步</h2>
+  <p>如果你開啟了 iCloud 同步功能，你的故事、角色和設定資料將透過 Apple 的 CloudKit 服務同步到你的 iCloud 帳戶。此資料受 <a href="https://www.apple.com/legal/privacy/" target="_blank">Apple 隱私政策</a> 保護。你可以隨時在 App 設定中關閉同步，或在 iOS 設定 → iCloud → TaleBox 中管理資料。</p>
+
+  <h2>4. 推播通知</h2>
+  <p>如果你授權了推播通知，TaleBox 會在你設定的時間發送每日故事提醒。通知內容在本地生成，不涉及伺服器。你可以隨時在 App 設定或 iOS 系統設定中關閉通知。</p>
+
+  <h2>5. 資料安全</h2>
+  <p>你的資料存儲在裝置本地和 iCloud，受 iOS 沙盒和 Apple 加密機制保護。我們無法存取你的 iCloud 資料。</p>
+
+  <h2>6. 未成年人</h2>
+  <p>TaleBox 不面向 13 歲以下兒童。我們不會有意收集未成年人的任何資訊。</p>
+
+  <h2>7. 變更通知</h2>
+  <p>如本政策發生重大變更，我們將在 App 更新說明中注明。繼續使用 App 即視為同意更新後的政策。</p>
+
+  <h2>8. 聯絡我們</h2>
+  <p>如有任何關於隱私的問題或資料刪除請求，請聯絡：</p>
+  <p><a href="mailto:natsukawa.tn@gmail.com">natsukawa.tn@gmail.com</a></p>
+</article>
+
+<footer>
+  <div class="footer-links">
+    <a href="index.html">首頁</a>
+    <a href="mailto:natsukawa.tn@gmail.com">聯絡支援</a>
+  </div>
+  <p>©<script>document.write(new Date().getFullYear())</script>NATSUKAWA.TN · TaleBox</p>
+</footer>
+
+</body>
+</html>
