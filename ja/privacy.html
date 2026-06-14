@@ -39,15 +39,14 @@
     <li><strong>設定情報：</strong>言語設定・テーマ・通知時間等は、デバイスのローカルに保存されます。</li>
   </ul>
 
-  <h2>2. サードパーティサービス</h2>
-  <p>TaleBox は物語コンテンツの生成に <strong>Google Gemini API</strong> を使用しています。物語生成を開始する際、以下の情報が Google のサーバーに送信されます：</p>
+  <h2>2. AI による物語生成</h2>
+  <p>TaleBox は物語コンテンツの生成にサードパーティの AI サービスを使用しています。物語生成を開始する際、以下の情報がそのサービスに送信されます：</p>
   <ul>
     <li>入力した物語のキーワード（1〜3語）</li>
     <li>作成したキャラクターの名前</li>
     <li>今週の物語の簡単な概要（7日間アークの一貫性のため）</li>
   </ul>
-  <p>Google は上記データを独自のプライバシーポリシーに基づいて処理します。<a href="https://policies.google.com/privacy" target="_blank">Google プライバシーポリシー</a>をご確認ください。</p>
-  <p><strong>上記情報を当社サーバーに保存することはありません。</strong>TaleBox は独自バックエンドを持たず、すべての API 呼び出しはお客様のデバイスから直接行われます。</p>
+  <p><strong>上記情報を当社サーバーに保存することはありません。</strong>TaleBox は独自バックエンドを持たず、すべてのリクエストはお客様のデバイスから直接行われます。</p>
 
   <h2>3. iCloud 同期</h2>
   <p>iCloud 同期を有効にした場合、物語・キャラクター・設定データが Apple の CloudKit サービスを通じて iCloud アカウントに同期されます。このデータは <a href="https://www.apple.com/legal/privacy/" target="_blank">Apple プライバシーポリシー</a>に準拠します。アプリ設定、または「iOS 設定 → iCloud → TaleBox」でいつでも同期を無効にし、データを管理できます。</p>

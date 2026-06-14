@@ -39,15 +39,14 @@
     <li><strong>偏好设置：</strong>语言偏好、主题设置、通知时间等，存储在设备本地。</li>
   </ul>
 
-  <h2>2. 第三方服务</h2>
-  <p>TaleBox 使用 <strong>Google Gemini API</strong> 生成故事内容。当你发起故事生成时，以下信息会被发送至 Google 的服务器：</p>
+  <h2>2. AI 故事生成</h2>
+  <p>TaleBox 使用第三方 AI 服务生成故事内容。当你发起故事生成时，以下信息会被发送至该服务：</p>
   <ul>
     <li>你输入的故事关键词（1–3 个词）</li>
     <li>你创建的角色名字</li>
     <li>本周已发生故事的简要摘要（用于七日故事线连贯性）</li>
   </ul>
-  <p>Google 处理上述数据须遵守其自身的隐私政策。我们建议你查阅 <a href="https://policies.google.com/privacy" target="_blank">Google 隐私政策</a>。</p>
-  <p><strong>我们不会将任何上述信息存储在我们的服务器上</strong>——TaleBox 没有自建后端，所有 API 调用直接从你的设备发出。</p>
+  <p><strong>我们不会将任何上述信息存储在我们的服务器上</strong>——TaleBox 没有自建后端，所有请求直接从你的设备发出。</p>
 
   <h2>3. iCloud 同步</h2>
   <p>如果你开启了 iCloud 同步功能，你的故事、角色和设置数据将通过 Apple 的 CloudKit 服务同步到你的 iCloud 账户。此数据受 <a href="https://www.apple.com/legal/privacy/" target="_blank">Apple 隐私政策</a> 保护。你可以随时在 App 设置中关闭同步，或在 iOS 设置 → iCloud → TaleBox 中管理数据。</p>
